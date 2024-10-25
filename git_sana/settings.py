@@ -124,10 +124,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Credentials and URLs
-ASANA_ACCESS_TOKEN = '2/1208619056028839/1208619068369423:0f4de7000d123b0708dcb4dd1dfcae6d'  #Asana personal access token
-WORKSPACE_ID = '1208619056028851'  #Asana workspace ID
-PROJECT_ID = '1208619183428963'    #Asana project ID
-GITHUB_TOKEN = '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'  
+ASANA_ACCESS_TOKEN = 'your_asana_access_token'
+WORKSPACE_ID = 'your_workspace_id'
+PROJECT_ID = 'your_project_id'
+GITHUB_TOKEN = 'your_github_token'
 GITHUB_API_BASE_URL = "https://api.github.com"
 ASANA_API_TASK_URL = "https://app.asana.com/api/1.0/tasks"
-GITHUB_WEBHOOK_SECRET = "olivepizza"
+GITHUB_WEBHOOK_SECRET = 'your_github_webhook_secret'
